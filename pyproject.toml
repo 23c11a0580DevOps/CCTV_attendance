@@ -1,0 +1,26 @@
+[project]
+name = "cctv-attendance"
+version = "0.1.0"
+description = "2026 project for the cctv attendance"
+authors = [
+    {name = "Laxman"}
+]
+package-mode = false
+requires-python = ">=3.11"
+dependencies = [
+    "numpy==1.26.4",
+    "insightface==0.7.3",
+    "onnxruntime==1.17.3",
+    "opencv-python-headless==4.9.0.80",
+    "scikit-learn==1.7.2",
+    "tqdm==4.67.1",
+    "matplotlib (>=3.10.8,<4.0.0)",
+    "fitz (>=0.0.1.dev2,<0.0.2)",
+    "frontend (>=0.0.3,<0.0.4)",
+    "pymupdf (>=1.26.7,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

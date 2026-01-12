@@ -1,0 +1,7 @@
+#data of the students
+src/data/*
+src/processed/*
+
+#output images
+src/outputs_final/*
+src/outputs_yolo/*
